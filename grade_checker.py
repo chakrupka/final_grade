@@ -1,6 +1,5 @@
 from tkinter import *
 
-
 # Grade algorithm
 def calculate_grade_necessary(current_grade, wanted_grade, final_weight):
         final_weight = final_weight / 100
