@@ -10,7 +10,7 @@ def calculate_grade_necessary(current_grade, wanted_grade, final_weight):
         necessary_grade = (wanted_grade - current_portion) / final_weight
 
         ent_results.delete(0, END)
-        ent_results.insert(0, f"Grade necessary: {necessary_grade}")
+        ent_results.insert(0, str(round(necessary_grade, 2)))
 
 # Wrapper for button
 def calculate_wrapper():
