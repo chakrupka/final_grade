@@ -77,4 +77,5 @@ ent_results = Entry(master=frame_results, width=5)
 lbl_results.grid(row=1, column=0)
 ent_results.grid(row=1, column=1, sticky="N", pady=10)
 
+# Start app
 window.mainloop()
